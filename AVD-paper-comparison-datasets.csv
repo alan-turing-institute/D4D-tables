@@ -1,0 +1,25 @@
+﻿Dataset,citation,Year ,language,Size (func),% Vuln,Real world,Granularity,CWE ID,test/train split,Code pairs,Non-code data,url,why?
+Devign,devign-dataset,2019,C/C++,27318,45.6,yes,function,0,0,0,"repo, commit",,
+CodeXGLUE,lu2021codexglue,2019,C/C++,27318,45.6,yes,function,0,no temporal,0,"repo, commit",,
+VPP,risse2024uncovering,2024,C/C++,26200,50,yes,function,0,no temporal,1,"repo, commit",,
+Reveal,reveal-dataset,2021,C/C++,18169,9.2,yes,function,0,0,0,repo,https://drive.google.com/drive/folders/1KuIYgFcvWUXheDhT--cBALsfy1I4utOy,
+Big-Vul,big-vul,2020,C/C++,188636,5.7,yes,"function,line",1,no temporal,1,"repo, commit, CVE ",,
+VulDeePecker,vuldeepecker-dataset,2018,C/C++,61638,28.8,mix,slice,1,0,0,0,,
+SySeVR,sysevr-dataset,2018,C/C++,420627,13.4,mix,slice,1,0,0,0,,
+Draper,draper,2021,C/C++,1274366,13.4,mix,function,1,no temporal,0,0,,
+\muVulDeePecker,muvuldeepecker-dataset,2019,C/C++,181641,9.5,mix,slice,1,0,0,0,,
+D2A,D2A,2021,C/C++,1295623,23.7,yes,"slice, line",1,no temporal,0,"repo, commit",,
+CVEfixes,Bhandari_2021,2021,27,138974,50,yes,"file, function",1,0,1,"repo, commit,CVE",,
+CrossVul,CrossVul,2021,"C/C++, JS, PHP, Py, Ruby",27476,50,yes,file,1,0,1,"commit, repo, CVE",,
+SVEN,He_2023,2023,"C/C++, Py",1606,50,yes,function,1,no temporal,1,"repo, commit",,VUDENC Big-VUL CrossVul
+DiverseVul,chen2023diversevul,2023,C/C++,349437,5.4,yes,function,1,0,0,"commit, repo",,
+Real-Vul,chakraborty2024realvul,2024,C/C++,1688241,0.3,yes,"repository, function, line",1,1,0,"commit, repo",,
+MegaVul,ni2024megavul,2024,"C/C++, Java",339548,5.4,yes,function,1,0,1,"repo, commit, CVE",,"① unreal vulnerability (i.e., SARD [ 1] is artificially synthesized), ② unreal data distribution (i.e., balanced distribution in Devign [ 20 ]), ③ limited diversity (i.e., limited projects and vulnerability types in ReVeal [9]), ④ limited newly disclosed vulnerabilities (i.e., no updating to Big-Vul [ 10 ] covering the period only from 2003 to 2019), and ⑤ low-quality of dataset (i.e., incomplete function, erroneously merged functions, missed commit message in Big-Vul [10])."
+ReposVul,wang2024repository,2024,"C/C++, Java, Py","262,216",*,yes,"repository, file, function, line",1,0,1,"repo, commit, CVE",,"(1) Tangled Patches: Developers may submit code changes unrelated to vulnerability fixes within patches, leading to tangled patches. (2) Lacking Inteprocedural Vulnerabilities: The existing vulnerability datasets typically contain function-level and file-level vulnerabilities, ignoring the relations between functions, thus rendering the approaches unable to detect the inter-procedural vulnerabilities. (3) Outdated Patches: The existing datasets usually contain outdated patches, which may bias the model during training."
+PrimeVul,ding2024vulnerability,2024,C/C++,235768,3.1,yes,function,1,1,1,"repo, commit, CVE",,"BigVul [9], CrossVul [11], CVEfixes [10], and DiverseVul"
+VulEval,wen2024vuleval,2024,C/C++,"232,239",3,yes,"repository, file, function",1,1,0,"repo, commit, dependencies, CVE",,mend.io
+CleanVul,li2025cleanvul,2025,"C/C++, Java, Py, JS, C#","16,396",50,yes,function,1,0,1,"repo, commit, CVE",,"However, these datasets frequently suffer from significant noise,
+typically "
+PairVul,du2025pairvul,2026,C/C++,5806,50,yes,function,1,no temporal,1,CVE,,"o (1) the lack of corresponding patched
+versions for vulnerable code (e.g., Devign and Reveal), and (2) the absence of verified correctness
+for patched code. For example, although BigVul includes patched code"

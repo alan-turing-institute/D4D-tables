@@ -18,13 +18,13 @@ authors:
     affiliation: "University of Southampton and The Alan Turing Institute"
   - family-names: Vyas
     given-names: Sanyam
+  - family-names: Hicks
+    given-names: Chris
+    affiliation: "The Alan Turing Institute"
   - family-names: Mavroudis
     given-names: Vasilios
     orcid: https://orcid.org/0000-0003-2667-5906
     affiliation: "King's College London"
-  - family-names: Hicks
-    given-names: Chris
-    affiliation: "The Alan Turing Institute"
 type: dataset
 identifiers:
   - type: url

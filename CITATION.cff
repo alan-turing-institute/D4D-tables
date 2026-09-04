@@ -1,0 +1,50 @@
+cff-version: 1.2.0
+title: "Direction for Detection: A Survey of Automated Vulnerability Detection and all of its Pain Points"
+authors:
+  - family-names: Ristea
+    given-names: Dan
+    orcid: https://orcid.org/0000-0001-7707-3986
+    affiliation: 
+      - "University College London"
+      - "The Alan Turing Institute"
+
+  - family-names: McFadden
+    given-names: Shae
+    orcid: https://orcid.org/0009-0008-0180-2888
+    affiliation: 
+      - "University College London"
+      - "King's College London"
+      - "The Alan Turing Institute"
+
+  - family-names: Shereen
+    given-names: Ezzeldin
+    orcid: https://orcid.org/0000-0002-9988-9545
+    affiliation:
+      - "The Alan Turing Institute"
+
+  - family-names: Dwyer
+    given-names: Madeleine
+    affiliation:
+      - "University of Southampton"
+      - "The Alan Turing Institute"
+  
+  - family-names: Vyas
+    given-names: Sanyam
+    affiliation:
+      - "University of Southampton"
+      - "The Alan Turing Institute"
+
+  - family-names: Mavroudis
+    given-names: Vasilios
+    orcid: https://orcid.org/0000-0003-2667-5906
+    affiliation:
+      - "King's College London"
+  - family-names: Hicks
+    given-names: Chris
+    affiliation:
+      - "The Alan Turing Institute"
+type: article
+identifiers:
+  - type: url
+    value: "https://openreview.net/forum?id=01TkT5p3xT"
+license: MIT
